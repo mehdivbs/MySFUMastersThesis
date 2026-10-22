@@ -1,5 +1,19 @@
 # Unresolved Issues and Required Follow-Up
 
+## Protocol Re-audit Updates (2026-10-21)
+
+| Issue | Current status | Follow-up |
+|---|---|---|
+| Complete paragraph-by-paragraph addition inventory | The attached protocol's highest-consequence additions are classified in `Revision_Audit.md`; a complete source diff against every Copilot-added paragraph was not verified in this pass. | Compare the authoritative examiner PDF and pre-edit source with `main_revised.tex` and classify every added paragraph before submission. |
+| Git status | Not verified in this pass because the `git` executable was unavailable in the terminal. | Check repository status and remote synchronization in an environment with Git installed. |
+
+| Issue | Current status | Follow-up |
+|---|---|---|
+| Source [188] / `smet_three_nodate` and the $250 million estimate | Not verified; the estimate is removed from `main_revised.tex`. The bibliography entry contains the article title, authors, and year, but not the underlying measurement or context. | Obtain and inspect the exact cited source and any underlying survey/report before restoring a qualified numerical claim. |
+| Miao communication-engineering study and other disputed citations | The Miao example is bounded to one domain-specific example in the revised manuscript, but the cited paper was not checked against its full text in this workspace. | Verify methods, results, quotation wording, and citation support directly from the primary papers. |
+| Introduction source context | The exact source-to-number mapping and citation-number mapping in the examiner's PDF version cannot be checked because that PDF and a separate examiner report are absent. | Compare the exact examiner PDF and bibliography at final proof stage. |
+| Remaining implementation descriptions | Some integration/connectivity language was explicitly marked proposed; no ICADOS repository or executable build is available to check all component claims. | Compare each Chapter 5 claim against the thesis-version source repository, if available, and label each item as implemented, mockup, or proposed. |
+
 The revised copy improves claim accuracy and integration but cannot resolve limitations that require records, additional research, software, or empirical evidence not present in this workspace.
 
 | Issue | Why it remains unresolved | Why it matters | Smallest defensible next step |
@@ -15,6 +29,7 @@ The revised copy improves claim accuracy and integration but cannot resolve limi
 | Expert-belief/data conflict procedure | The revised thesis offers a conceptual recommendation, but no decision rule has been implemented or tested. | The framework's most important human/data interaction remains a design proposal rather than a validated process. | Specify alternative causal hypotheses, evidence-quality checks, uncertainty displays, and expert review steps, then evaluate them in a task study. |
 | Full LaTeX build and page-level check | `pdflatex` was not found on PATH in the available terminal, and no thesis PDF is present in the workspace. | Cross-references, bibliography rendering, figure inclusion, page breaks, and final page references remain unverified. | Compile on Overleaf or a configured TeX distribution, inspect all warnings and figures, and then update page-specific response references. |
 | Git status after this revision pass | The original commit `1652864` was pushed before this separate working copy and audit materials were created. The new working files are not yet committed or pushed. | The latest revision artifacts are local only. | Review the revised copy and reports, then stage only the intended files and push if requested. |
+| Git status after this revision pass | Not verified in this pass because the `git` executable was unavailable in the terminal. | Repository state cannot be stated reliably from the available tools. | Check status and remote synchronization in an environment with Git installed. |
 
 ## Audit Boundaries
 

@@ -1,5 +1,28 @@
 # Examiner-Feedback Revision Audit
 
+**Protocol integration re-audit:** 2026-10-21
+**Revised manuscript:** `main_revised.tex`
+**Preserved pre-repair copy:** `main_copilot_backup.tex` (verified byte-identical to `main.tex` before this pass)
+
+This follow-up applies the attached integration protocol to the available thesis source. It supersedes the earlier status descriptions below wherever they describe changes not present in the current `main_revised.tex`. The Introduction's $250 million estimate was removed because the bibliography entry alone does not verify its measure, population, period, or context. No current PDF, full examiner report file, or ICADOS implementation repository is available.
+
+## Integration Audit Table: Highest-Consequence Additions
+
+| Raw addition or claim | Before | After / action | Reason and status |
+|---|---|---|---|
+| Introduction decision-frequency and human-factors additions | “tons of these routine decisions”; broad claim that human reasoning and traits were “generally neglected”; separate paragraphs explaining both statements | The colloquial phrase and detached explanatory paragraphs are absent. The gap is framed as organizing technique classes with decision stages, task requirements, and human factors, while acknowledging prior work. The specific $250 million / 530,000 manager-day estimate was removed because source [188] could not be verified from available files. | Integrated into the argument rather than narrated as a correction; removed unsupported context rather than inventing it. |
+| RQ2 close-reading scope | “Thoroughly analyzed” each coded subcategory and the applications of every tool class | The revised text distinguishes 72 coded papers from selected illustrative examples and states that no example-selection rule or common quality appraisal was documented. | Removes contradiction and avoids inventing selection criteria. |
+| Statistics example caveat | A standalone “preceding example” paragraph repeated that correlation does not establish causation | The study description itself says it reports an association used for feature selection and does not establish causal effects; the detached caveat was deleted. | Qualification is attached to the claim it limits. |
+| RQ2 tool-family summaries | Claims that ML autonomously adjusts strategies and that visualization necessarily improves monitoring/understanding | ML wording is limited to predictions, patterns, and settings-specific adaptive-policy examples; visualization is described as supporting inspection while remaining sensitive to task, data, design, and user. | Avoids converting examples into general effectiveness claims. |
+| Simulation summary | Simulation presented as evaluating interventions and scenario analysis without conditioning results on a model | Summary now describes modeled comparisons and scenarios as conditional on model structure, parameters, and assumptions. | Makes the inferential boundary explicit. |
+| MOO stakeholder choice | Pareto alternatives and automatic final choice could be read as equivalent | The revised text distinguishes non-dominated candidate sets from final selection under explicit preferences or an aggregation/selection rule. | Resolves the conceptual inconsistency; source-specific algorithm claims still need full-text verification. |
+| Prior-work comparison | Full comparison repeated in the conclusion | The conclusion now summarizes the scope difference in one sentence after the detailed Chapter 4 comparison. | Retains the contribution without claiming priority or superiority. |
+| SCI and ICADOS implementation | SCI proposed for every data-level task; a figure caption misspelled ICADOS; a live WebSocket path was described as established | Future work now targets selected representative tasks; the figure is labeled as an ICADOS causal-model interface; the live connection is described as proposed and unverified. | Separates conceptual workflows and interface artifacts from implemented functionality. |
+
+## Current Consistency Finding
+
+The abstract, contribution, and conclusion characterize the framework as conceptual and state that user evaluation and real-task deployment did not occur. The revised claims do not establish improved decision quality, efficiency, transparency, confidence, organizational impact, field-wide prevalence, or superiority/novelty. This is a textual consistency finding, not a certification that every cited source supports every adjacent literature claim. See `Unresolved_Issues.md` for source verification, implementation, and build limits.
+
 **Audit date:** 2026-10-20
 **Current manuscript:** `main.tex`, commit `1652864` (`Revise thesis based on reviewer feedback`)
 **Pre-revision comparison:** parent commit `d31f3be`

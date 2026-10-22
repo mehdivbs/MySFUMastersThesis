@@ -1,5 +1,21 @@
 # Revision Change Log
 
+## Supplemental Integration Repairs (2026-10-21)
+
+This supplemental section supersedes earlier rows below wherever they conflict with the current manuscript; in particular, the $250 million estimate has been removed, not retained.
+
+| Page/section | Issue | Action | Reason |
+|---|---|---|---|
+| Chapter 1, Background and Importance | Patchwork opening retained colloquial decision wording, an unverified dollar estimate, and detached rebuttal paragraphs | Rewrite/integrate in `main_revised.tex`; remove the estimate and detached notes | Keep the gap claim precise and avoid asserting unsupported source context. Page numbers are unavailable because the revised source has not been compiled to PDF. |
+| Chapter 2, RQ2 introduction | Selective-example caveat conflicted with language claiming thorough analysis of every coded paper | Delete redundant scope narration; retain the concise statement that the 72 papers were coded and selected examples are illustrative | Align the method description with the documented record and avoid invented sampling rules. |
+| Chapter 2, statistics synthesis | Association-versus-causation qualification appeared in a separate explanatory paragraph | Retain the qualification in the study description and delete the detached paragraph | Integrate the limitation where the example is introduced. |
+| Chapter 2, RQ2 summary | Summary overgeneralized ML adaptation, visualization benefits, and simulation outputs | Narrow claims to described functions and state relevant conditions/assumptions | Do not imply effectiveness or causal findings that this thesis did not evaluate. |
+| Chapter 4, prior-work comparison; Chapter 6, Contribution | Repeated full comparison risked sounding like a novelty claim | Retain the detailed comparison in Chapter 4 and use a one-sentence scope summary in the conclusion | Acknowledge related work without implying priority or superiority. |
+| Chapter 5, ICADOS description and figure caption | Proposed connectivity appeared operational; one caption said ICODOS and mislabeled a causal-model interface as a use-case diagram | Mark the connection as proposed/unverified and correct the caption to ICADOS causal-model interface | Match the wording to the available prototype artifacts and system-name usage. |
+| Chapter 6, Future Works | Proposed executing SCI for every data-level task and setting each integration as a default | Narrow to selected representative tasks and make default use contingent on future evaluation | Avoid implying an exhaustive task-level application has been completed or is immediately feasible. |
+
+The pre-repair manuscript remains preserved in `main_copilot_backup.tex`. The bibliography entry for `smet_three_nodate` was not sufficient to verify the cited $250 million estimate, so the numerical claim was removed rather than rephrased as established fact.
+
 **Date:** 2026-10-20
 **Baseline:** `main.tex` at commit `1652864`
 **Revised copy:** `main_revised.tex`

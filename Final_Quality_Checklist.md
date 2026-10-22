@@ -1,5 +1,23 @@
 # Final Quality-Control Checklist
 
+## Integration Re-audit (2026-10-21)
+
+This re-audit supersedes conflicting statuses in the earlier checklist below. It reports textual checks only and does not certify citation support or implementation.
+
+| Protocol requirement | Status | Evidence and remaining limit |
+|---|---|---|
+| Repair the Introduction in place and remove detached response notes | Addressed in `main_revised.tex` | Everyday-decision wording and the narrower human-factors contribution are integrated; the $250 million estimate and explanatory add-ons were removed. |
+| Verify source [188] and its numerical claim | Unresolved; claim removed | The available bibliography entry identifies an article but does not establish the amount's measure, population, period, or context. |
+| Distinguish coded corpus from examples discussed in depth | Addressed textually | 72-paper coding is distinguished from selected illustrative examples; selection criteria were not invented. |
+| Remove standalone correlation caveat | Addressed | Association limitation is retained with the example; redundant paragraph removed. |
+| Reconcile MOO Pareto sets and final selection | Addressed conceptually | Candidate sets are distinguished from preference- or rule-based single selection. Full-text support for specific cited examples remains unverified. |
+| Bound SCI and ICADOS implementation claims | Partially addressed | SCI is framed as conceptual and future work is narrowed to representative tasks; WebSocket connectivity is labeled proposed. No code repository was available to verify other component claims. |
+| Related-work comparison and contribution scope | Addressed textually | Prior connections are acknowledged; the conclusion gives a one-sentence scope distinction without priority or superiority claims. |
+| Whole-document citation and source verification | Unresolved | Citation keys may resolve, but the cited papers and quotations were not checked comprehensively against primary sources. |
+| LaTeX build, cross-references, and PDF layout | Unverified | No compiled PDF or TeX compiler was available in the workspace during this pass. |
+
+The consistency conclusion is limited to the claims attributable to this thesis: it reports no user evaluation, real-task deployment, comparative effectiveness result, field-wide prevalence estimate, or demonstrated novelty advantage. Literature claims elsewhere still require primary-source verification.
+
 **Manuscript under review:** `main_revised.tex`
 **Status key:** Addressed = revised text provides a clear and integrated response; Partial = the text acknowledges or narrows the issue but evidence/research remains insufficient; Unresolved = cannot be resolved from current materials; Unverifiable = required source material is unavailable.
 
